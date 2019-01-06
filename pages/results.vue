@@ -4,7 +4,7 @@
       <h1 class="is-centered">Getting Match Results and Match Notices</h1>
 
       <p>
-        Results are posted to the <a href="http://www.uspsa.org/uspsa-display-match-results.php">USPSA.org</a> web site in the members section under Local Match results. Usually within a day of the match. Classifier results are usually posted within a week of the match. This allows for any corrections in match results before submitting. Note that USPSA typically calculates classifications on or around the 14th of each month. Classifier scores will not be reflected in your personal Classification data until that happens.
+        Results are posted to the <a href="https://uspsa.org/match-results-search">USPSA.org</a> web site in the members section under Local Match results. Usually within a day of the match. Classifier results are usually posted within a week of the match. This allows for any corrections in match results before submitting. Note that USPSA typically calculates classifications on or around the 14th of each month. Classifier scores will not be reflected in your personal Classification data until that happens.
       </p>
       <p>
         Match results forwarded to the <a href="http://www.uspsa2.org/match.htm">Area 2 web site</a> can be viewed from their web site.

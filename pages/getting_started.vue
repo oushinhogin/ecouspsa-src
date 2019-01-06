@@ -92,8 +92,8 @@
         site.
       </p>
       <p>
-        <b>What next?</b> Check out the ECO USPSA <a
-          href="/safety_program.html">Safety Program</a>!
+        <b>What next?</b> Check out the ECO USPSA <nuxt-link
+          to="/safety_program">Safety Program</nuxt-link>!
       </p>
     </div>
   </section>
