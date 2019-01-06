@@ -1,7 +1,7 @@
 {
   "name": "ECOUSPSA",
   "version": "1.0.0",
-  "description": "Eastern Colorado USPSA",
+  "description": "Eastern Colorado USPSA Section",
   "author": "Josh Horner",
   "private": true,
   "scripts": {
