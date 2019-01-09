@@ -19,6 +19,7 @@ export default {
 </script>
 
 <style lang='scss'>
+@import "~bulma/bulma.sass";
 .is-centered {
   text-align: center;
 }
