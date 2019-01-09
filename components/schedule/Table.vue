@@ -60,12 +60,16 @@
 </template>
 
 <script>
-import ClubSchedule from '~/components/ClubSchedule.vue'
+import ClubSchedule from '~/components/schedule/Row.vue'
 export default {
   props: [
-    'clubs',
     'year'
   ],
+  computed: {
+    clubs () {
+      return this.$store.state.clubs.list
+    }
+  },
   components: {
     ClubSchedule
   }

@@ -14,7 +14,7 @@
         </h2>
       </div>
 
-      <schedule-table v-bind:year="year" v-bind:clubs="clubs" />
+      <schedule-table v-bind:year="2019" />
 
         <div class="notification is-warning">
           All early spring, late fall, and winter matches are subject to
@@ -35,16 +35,16 @@
             <strong>04/03/19</strong> &mdash; USPSA SIG Sauer Multi Gun Nationals – Frostproof, FL
           </li>
           <li>
-            <strong>09/22/19</strong> &mdash; USPSA “HICAP” Nationals Open &amp; PCC Division – Frostproof, FL
+            <strong>09/22/19</strong> &mdash; USPSA “HICAP” Nationals Open &amp; PCC Division – Washington, UT
           </li>
           <li>
-            <strong>09/26/19</strong> &mdash; USPSA “HICAP” Nationals Carry Optics &amp; Limited – Frostproof, FL
+            <strong>09/26/19</strong> &mdash; USPSA “HICAP” Nationals Carry Optics &amp; Limited – Wasington, UT
           </li>
           <li>
-            <strong>11/03/19</strong> &mdash; USPSA “LOCAP” Nationals Production &amp; L10 Divisions – Washington, UT
+            <strong>11/03/19</strong> &mdash; USPSA “LOCAP” Nationals Production &amp; L10 Divisions – Frostproof, FL
           </li>
           <li>
-            <strong>11/07/19</strong> &mdash; USPSA “LOCAP” Nationals Single Stack &amp; Revolver – Washington, UT
+            <strong>11/07/19</strong> &mdash; USPSA “LOCAP” Nationals Single Stack &amp; Revolver – Frostproof, FL
           </li>
           <li>
             <strong>11/06/17</strong> &mdash; Springfield Armory  Desert Classic Area 2 Championship – Mesa, AZ
@@ -68,7 +68,7 @@
 </template>
 
 <script>
-import ScheduleTable from '~/components/ScheduleTable.vue'
+import ScheduleTable from '~/components/schedule/Table.vue'
 export default {
   components: {
     ScheduleTable
@@ -76,88 +76,6 @@ export default {
   data: function () {
     return {
       year: 2019,
-      clubs: [
-        {
-          club: "PSAC",
-          location: "Aurora (Sunday)",
-          dayOfWeek: 1,
-          weekOfMonth: 1,
-          sectionQualifier: 5,
-        }, {
-          club: "CRCPS",
-          location: "Byres",
-          dayOfWeek: 7,
-          weekOfMonth: 2,
-          sectionQualifier: 7,
-          superClassifiers: [5],
-          majors: {
-            m9: '13-15<sup>2</sup>'
-          }
-        }, {
-          club: "YVPS",
-          location: "Steamboat",
-          dayOfWeek: 7,
-          weekOfMonth: 2,
-          sectionQualifier: 9,
-          iffy: [1,2,3,4,11,12]
-        }, {
-          club: "BRC",
-          location: "Boulder",
-          dayOfWeek: 1,
-          weekOfMonth: 2,
-          sectionQualifier: 6,
-        }, {
-          club: "PPPS",
-          location: "Pueblo",
-          dayOfWeek: 1,
-          weekOfMonth: 2,
-          sectionQualifier: 4,
-          superClassifiers: [10] ,
-        }, {
-          club: "HPPS",
-          location: "Ramah",
-          dayOfWeek: 7,
-          weekOfMonth: 3,
-          sectionQualifier: 8,
-        }, {
-          club: "WCPS",
-          location: "Weld County",
-          dayOfWeek: 1,
-          weekOfMonth: 3,
-          sectionQualifier: 11,
-          majors: {
-            m6: 'May 31 - Jun 3<sup>1</sup>'
-          }
-        }, {
-          club: "PSAC",
-          location: "Aurora (Saturday)",
-          dayOfWeek: 7,
-          weekOfMonth: 4,
-        }, {
-          club: "CCPS",
-          location: "Dumont",
-          dayOfWeek: 1,
-          weekOfMonth: 4,
-          sectionQualifier: 7,
-          iffy: [1,2,11,12]
-        }, {
-          club: "SCPS",
-          location: "Colo. Spgs.",
-          dayOfWeek: 1,
-          weekOfMonth: 4,
-          omit: [1,2,3],
-        }, {
-          club: "WPGC",
-          location: "Colo. Spgs.",
-          dayOfWeek: 2,
-          weekOfMonth: 1,
-        }, {
-          club: "BPS",
-          location: "Lakewood",
-          dayOfWeek: 5,
-          weekOfMonth: 3,
-        },
-      ]
     }
   }
 }

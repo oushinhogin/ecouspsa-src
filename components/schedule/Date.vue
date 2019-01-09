@@ -10,23 +10,26 @@ export default {
     'year'
   ],
   computed: {
-    specialDayClasses: function () {
+    scheduleInfo () {
+      return this.clubInfo.schedules[this.year]
+    },
+    specialDayClasses () {
       return {
-        'section-qualifier': this.month + 1 == this.clubInfo.sectionQualifier,
-        'super-classifier': this.clubInfo.superClassifiers && this.clubInfo.superClassifiers.indexOf(this.month + 1) >= 0,
+        'section-qualifier': this.month + 1 == this.scheduleInfo.sectionQualifier,
+        'super-classifier': this.scheduleInfo.superClassifiers && this.scheduleInfo.superClassifiers.indexOf(this.month + 1) >= 0,
         'major': this.isMajor,
         'iffy': this.isIffy
       }
     },
-    day: function () {
+    day () {
       if (this.isMajor) {
         var majorKey = "m" + (this.month + 1)
-        return this.clubInfo.majors[majorKey]
+        return this.scheduleInfo.majors[majorKey]
       } else if (this.isOmitted) {
         return ''
       } else {
-        var day_of_week = this.clubInfo.dayOfWeek - 1
-        var week_of_month = this.clubInfo.weekOfMonth - 1
+        var day_of_week = this.scheduleInfo.dayOfWeek - 1
+        var week_of_month = this.scheduleInfo.weekOfMonth - 1
         var start_of_month = new Date(this.year, this.month).getDay()
         var first_instance_of_day_of_week = ((day_of_week - start_of_month)) + 1
         if (first_instance_of_day_of_week <= 0) {
@@ -35,25 +38,25 @@ export default {
         return first_instance_of_day_of_week + 7 * week_of_month
       }
     },
-    isMajor: function () {
-      if (!this.clubInfo.majors) {
+    isMajor () {
+      if (!this.scheduleInfo.majors) {
         return false
       }
       var majorKey = "m" + (this.month + 1)
-      return this.clubInfo.majors.hasOwnProperty(majorKey)
+      return this.scheduleInfo.majors.hasOwnProperty(majorKey)
     },
-    isIffy: function () {
-      if (!this.clubInfo.iffy) {
+    isIffy () {
+      if (!this.scheduleInfo.iffy) {
         return false
       }
-      return this.clubInfo.iffy.indexOf(this.month+1) >= 0
+      return this.scheduleInfo.iffy.indexOf(this.month+1) >= 0
     },
-    isOmitted: function () {
-      if (!this.clubInfo.omit) {
+    isOmitted () {
+      if (!this.scheduleInfo.omit) {
         return false
       }
-      return this.clubInfo.omit.indexOf(this.month+1) >= 0
-    }
+      return this.scheduleInfo.omit.indexOf(this.month+1) >= 0
+    },
   }
 }
 </script>

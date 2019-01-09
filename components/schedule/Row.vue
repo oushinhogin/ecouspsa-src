@@ -1,6 +1,6 @@
 <template>
   <tr>
-    <td><nuxt-link :to="link">{{ info.club }}</nuxt-link></td>
+    <td><nuxt-link :to="link">{{ info.shortName }}</nuxt-link></td>
     <!-- 1st sunday -->
     <td>{{ info.location }}</td>
     <schedule-date
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import ScheduleDate from '~/components/ScheduleDate.vue'
+import ScheduleDate from '~/components/schedule/Date.vue'
 export default {
   props: [
     'info',
@@ -21,7 +21,7 @@ export default {
   ],
   computed: {
     link: function () {
-      return "/clubs#" + this.info.club
+      return "/clubs#" + this.info.shortName
     },
   },
   data: function () {
