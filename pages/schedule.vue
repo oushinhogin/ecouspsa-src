@@ -80,7 +80,7 @@
             </div>
           </div>
         </div>
-        <div class="more-info notification is-info">
+        <div class="more-info notification is-info" v-if="!activeTab">
           Select one of the match types above to see general and schedule information.
         </div>
       </div>
