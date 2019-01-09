@@ -21,18 +21,28 @@
       </thead>
       <tbody>
         <club-schedule
+          v-if="!otherClubs"
           v-for="club in clubs"
           v-bind:info="club"
           v-bind:year="year"
           />
+        <club-schedule
+          v-if="otherClubs"
+          v-for="club in otherClubs"
+          :info="club"
+          :year="year"
+          :no-link="true"
+          />
       </tbody>
     </table>
-    <div class="key">
+    <div class="key" v-if="!otherClubs">
       <table class="table is-bordered">
         <tbody>
           <tr>
             <td class="section-qualifier">
-              Section Qualifier
+              <tooltip tip="Click for more information">
+                <nuxt-link to="qualifier-series">Section Qualifier</nuxt-link>
+              </tooltip>
             </td>
           </tr>
         </tbody>
@@ -41,7 +51,9 @@
         <tbody>
           <tr>
             <td class="super-classifier">
-              Super Classifier
+              <tooltip tip="Click for more information">
+                <nuxt-link to="super-classifiers">Super Classifier</nuxt-link>
+              </tooltip>
             </td>
           </tr>
         </tbody>
@@ -61,9 +73,11 @@
 
 <script>
 import ClubSchedule from '~/components/schedule/Row.vue'
+import Tooltip from '~/components/Tooltip.vue'
 export default {
   props: [
-    'year'
+    'year',
+    'otherClubs',
   ],
   computed: {
     clubs () {
@@ -71,7 +85,8 @@ export default {
     }
   },
   components: {
-    ClubSchedule
+    ClubSchedule,
+    Tooltip
   }
 }
 </script>

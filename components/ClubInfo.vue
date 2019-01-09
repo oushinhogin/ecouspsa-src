@@ -1,7 +1,7 @@
 <template>
-  <div class="clubInfo" v-if="club.name">
+  <div class="clubInfo" :id="club.shortName" v-if="club.name">
     <h2 v-html="club.name"></h2>
-    <div :id="club.shortName" class="columns">
+    <div class="columns">
       <div class="column">
         <table class="table is-narrow is-bordered">
           <tbody>
