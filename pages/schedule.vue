@@ -80,6 +80,9 @@
             </div>
           </div>
         </div>
+        <div class="more-info">
+          Select one of the match types above to see general and schedule information.
+        </div>
       </div>
     </section>
   </div>
@@ -139,4 +142,10 @@ export default {
     margin: 0 20px;
   }
 }
+.more-info {
+  @extend .notification;
+  @extend .is-info;
+  margin-bottom: 25px;
+}
+
 </style>

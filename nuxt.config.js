@@ -33,7 +33,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~plugins/filters.js'
+    '~/plugins/filters.js',
+    '~/plugins/fontawesome.js'
   ],
 
   /*
@@ -41,7 +42,8 @@ module.exports = {
   */
   modules: [,
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma'
+    '@nuxtjs/bulma',
+     ['nuxt-sass-resources-loader', './assets/main.scss']
   ],
 
   /*
@@ -59,7 +61,6 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
     }
   },
 }
