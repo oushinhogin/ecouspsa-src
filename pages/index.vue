@@ -17,7 +17,7 @@
       <div class="container">
         <!-- stereotypical Bootstrap three call-outs -->
         <div class="columns">
-          <div class="column">
+          <div class="column is-half-tablet is-one-quarter-desktop">
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -31,7 +31,7 @@
               </div>
             </div>
           </div>
-          <div class="column">
+          <div class="column is-half-tablet is-one-quarter-desktop">
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -46,7 +46,7 @@
             </div>
           </div>
 
-          <div class="column">
+          <div class="column is-half-tablet is-one-quarter-desktop">
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -63,7 +63,7 @@
             </div>
           </div>
 
-          <div class="column">
+          <div class="column is-half-tablet is-one-quarter-desktop">
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -94,7 +94,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import '~bulma/bulma.sass';
   .hero {
     background: transparent url('/background.jpg') repeat scroll center center;
   }
@@ -107,11 +106,6 @@ export default {
     }
   }
   .columns { flex-wrap: wrap; }
-  .column {
-    @extend .is-half-tablet;
-    @extend .is-one-quarter-desktop;
-
-  }
   @media (max-width: 798px) {
     .flex {
       flex-direction: column-reverse;

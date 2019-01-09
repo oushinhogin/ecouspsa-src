@@ -1,11 +1,6 @@
 const pkg = require('./package')
-const routerBase = process.env.DEPLOY_ENV == 'GH_PAGES' ? {
-  router: {
-    base: '/ecouspsa/'
-  }
-} : {}
 
-module.exports = {
+export default {
   mode: 'universal',
 
   /*
@@ -67,5 +62,4 @@ module.exports = {
       
     }
   },
-  ...routerBase
 }

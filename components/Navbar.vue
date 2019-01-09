@@ -17,12 +17,12 @@
       <div class="navbar-menu" v-bind:class="menuIsOpen">
         <div class="navbar-end">
           <nuxt-link class="navbar-item" @click.native="captureClick" exact-active-class="is-active" to="/">Home</nuxt-link>
-          <nuxt-link class="navbar-item" @click.native="captureClick" exact-active-class="is-active" to="/getting_started">Getting Started</nuxt-link>
-          <nuxt-link class="navbar-item" @click.native="captureClick" exact-active-class="is-active" to="/safety_program">Safety Program</nuxt-link>
-          <nuxt-link class="navbar-item" @click.native="captureClick" exact-active-class="is-active" to="/schedule">Schedule</nuxt-link>
-          <nuxt-link class="navbar-item" @click.native="captureClick" exact-active-class="is-active" to="/results">Results</nuxt-link>
-          <nuxt-link class="navbar-item" @click.native="captureClick" exact-active-class="is-active" to="/clubs">Club Info &amp; Maps</nuxt-link>
-          <nuxt-link class="navbar-item" @click.native="captureClick" exact-active-class="is-active" to="/sectioninfo">Section Info</nuxt-link>
+          <nuxt-link class="navbar-item" @click.native="captureClick" active-class="is-active" to="/getting_started">Getting Started</nuxt-link>
+          <nuxt-link class="navbar-item" @click.native="captureClick" active-class="is-active" to="/safety_program">Safety Program</nuxt-link>
+          <nuxt-link class="navbar-item" @click.native="captureClick" active-class="is-active" to="/schedule">Schedule</nuxt-link>
+          <nuxt-link class="navbar-item" @click.native="captureClick" active-class="is-active" to="/results">Results</nuxt-link>
+          <nuxt-link class="navbar-item" @click.native="captureClick" active-class="is-active" to="/clubs">Club Info &amp; Maps</nuxt-link>
+          <nuxt-link class="navbar-item" @click.native="captureClick" active-class="is-active" to="/sectioninfo">Section Info</nuxt-link>
         </div>
       </div>
     </div>
@@ -56,7 +56,6 @@
 nav.navbar {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
-@import '~bulma/bulma.sass';
 .navbar-brand .navbar-item img {
   margin-right: 10px;
 }
