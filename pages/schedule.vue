@@ -39,7 +39,7 @@
                 <strong>09/22/19</strong> &mdash; USPSA “HICAP” Nationals Open &amp; PCC Division – Washington, UT
               </li>
               <li>
-                <strong>09/26/19</strong> &mdash; USPSA “HICAP” Nationals Carry Optics &amp; Limited – Wasington, UT
+                <strong>09/26/19</strong> &mdash; USPSA “HICAP” Nationals Carry Optics &amp; Limited – Washington, UT
               </li>
               <li>
                 <strong>11/03/19</strong> &mdash; USPSA “LOCAP” Nationals Production &amp; L10 Divisions – Frostproof, FL
