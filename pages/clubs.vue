@@ -10,7 +10,11 @@
         </p>
       </div>
 
-      <club-info v-for="club in clubs" v-bind:club="club" />
+      <club-info
+        v-for="club in clubs"
+        :club="club"
+        :key="club.id"
+        />
     </div>
   </section>
 </template>

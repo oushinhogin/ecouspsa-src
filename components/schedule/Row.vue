@@ -8,9 +8,10 @@
     <td>{{ info.location }}</td>
     <schedule-date
       v-for="month in 12"
-      v-bind:month="month"
-      v-bind:year="year"
-      v-bind:club-info="info"
+      :key="month"
+      :month="month"
+      :year="year"
+      :club-info="info"
       />
   </tr>
 </template>

@@ -23,8 +23,9 @@
         <club-schedule
           v-if="!otherClubs"
           v-for="club in clubs"
-          v-bind:info="club"
-          v-bind:year="year"
+          :info="club"
+          :year="year"
+          :key="club.id"
           />
         <club-schedule
           v-if="otherClubs"
@@ -32,6 +33,7 @@
           :info="club"
           :year="year"
           :no-link="true"
+          :key="club.id"
           />
       </tbody>
     </table>
