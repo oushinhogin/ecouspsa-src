@@ -41,8 +41,9 @@ module.exports = {
   */
   modules: [,
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
-     ['nuxt-sass-resources-loader', './assets/main.scss']
+    //'@nuxtjs/bulma',
+    ['nuxt-sass-resources-loader', './assets/main.scss'],
+    ['@nuxtjs/google-analytics', {id: 'UA-132317379-1'}]
   ],
 
   /*
