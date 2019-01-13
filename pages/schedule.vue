@@ -64,7 +64,7 @@
             <li v-for="info, type in otherMatches" :class="{'is-active': activeTab == type}"><a @click="activeTab = type">{{type}}</a></li>
           </ul>
         </div>
-        <div v-for="info, type in otherMatches" v-if="activeTab == type" class="content">
+        <div v-for="info, type in otherMatches" v-if="activeTab == type" class="tab-content content">
           <h3 class="is-centered">{{type}}</h3>
           <div v-if="info">
             <div v-if="info.intro" v-html="info.intro" class="content"></div>
@@ -187,5 +187,8 @@ export default {
 .additional-club-info {
   @extend .column;
   flex-basis: 25%;
+}
+.tab-content {
+  margin-bottom: 50px;
 }
 </style>
