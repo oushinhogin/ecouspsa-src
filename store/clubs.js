@@ -40,9 +40,8 @@ export const state = () => ({
       googleMapLink: 'https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=301+South+Gun+Club+Road+Aurora,+CO+80018&aq=&sll=39.710587,-104.717817&sspn=0.024067,0.037165&ie=UTF8&hq=&hnear=301+S+Gun+Club+Rd,+Aurora,+Arapahoe,+Colorado+80018&t=m&ll=39.709564,-104.716187&spn=0.096402,0.124969&z=12&iwloc=',
     }, {
       id: 2,
-      shortName: "PSAC",
       shortName: "CRCPS",
-      location: "Byres",
+      location: "Byers",
       schedules: {
         2019: {
           dayOfWeek: 7,

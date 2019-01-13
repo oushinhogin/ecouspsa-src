@@ -67,11 +67,27 @@
         <div v-for="info, type in otherMatches" v-if="activeTab == type" class="content">
           <h3 class="is-centered">{{type}}</h3>
           <div v-if="info">
-            <div v-html="info.intro" class="content"></div>
+            <div v-if="info.intro" v-html="info.intro" class="content"></div>
             <schedule-table :other-clubs="info.clubs" :year="year" />
             <ol v-if="info.majors.length > 0">
               <li v-for="m in info.majors" v-html="m"></li>
             </ol>
+            <div class="columns">
+              <div class="additional-club-info" v-if="club.additionalInfo" v-for="club in info.clubs">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="card-header-title">{{club.shortName}}</div>
+                  </div>
+                  <div class="card-content">
+                    <div v-for="data, title in club.additionalInfo">
+                      <h3>{{title}}</h3>
+                      <p v-html="data"></p>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div v-else>
             <div class="notification is-warning">
@@ -88,6 +104,7 @@
   </div>
 </template>
 
+
 <script>
 import ScheduleTable from '~/components/schedule/Table.vue'
 export default {
@@ -99,7 +116,28 @@ export default {
       year: 2019,
       activeTab: '',
       otherMatches: {
-        'Multi-Gun': false,
+        'Multi-Gun': {
+          intro: '',
+          clubs: [
+            {
+              shortName: "WCFW 3 Gun",
+              location: 'Weld County',
+              schedules: {
+                2019: {
+                  dayOfWeek: 7,
+                  weekOfMonth: 4,
+                  omit: [1, 11, 12],
+                }
+              },
+              additionalInfo: {
+                "Match website": '<a href="https://practiscore.com/clubs/wcfw-multi-gun" target="_blank">https://practiscore.com/clubs/wcfw-multi-gun</a>',
+                "Match email": '<a href="mailto:Wcfw3g@gmail.com">Wcfw3g@gmail.com</a>',
+                "Match Director": "Drew Boldt 970-539-3390"
+              }
+            }
+          ],
+          majors: []
+        },
         'Rifle': false,
         'Steel Challenge': false,
         'IDPA': false,
@@ -141,9 +179,13 @@ export default {
   table {
     margin: 0 20px;
   }
+
 }
 .more-info {
   margin-bottom: 25px;
 }
-
+.additional-club-info {
+  @extend .column;
+  flex-basis: 25%;
+}
 </style>
