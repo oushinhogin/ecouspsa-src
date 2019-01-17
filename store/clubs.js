@@ -344,7 +344,7 @@ export const state = () => ({
       location: "Colorado Springs",
       schedules: {
         2019: {
-          dayOfWeek: 1,
+          dayOfWeek: 7,
           weekOfMonth: 4,
           sectionQualifier: 5,
           omit: [1,2,3],

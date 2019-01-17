@@ -16,7 +16,7 @@ export default {
     specialDayClasses () {
       return {
         'section-qualifier': this.month == this.scheduleInfo.sectionQualifier,
-        'super-classifier': this.scheduleInfo.superClassifiers && this.scheduleInfo.superClassifiers.indexOf(this.month + 1) >= 0,
+        'super-classifier': this.scheduleInfo.superClassifiers && this.scheduleInfo.superClassifiers.indexOf(this.month) >= 0,
         'major': this.isMajor,
         'iffy': this.isIffy
       }
