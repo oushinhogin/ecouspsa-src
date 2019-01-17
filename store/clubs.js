@@ -352,7 +352,7 @@ export const state = () => ({
         },
       },
       name: 'SoCo Practical Shooters',
-      code: 'TBD',
+      code: 'ECO19',
       hostClub: {
         url: 'http://pikespeakgunclub.org/',
         name: 'Pikes Peak Gun Club',
