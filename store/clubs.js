@@ -18,7 +18,7 @@ export const state = () => ({
         name: 'Aurora Gun Club',
       },
       times: {
-        'Shooter&#39;s Meeting': '9:30 AM',
+        'Shooter&#39;s Meeting': '9:00 AM',
       },
       contacts: [
         {
@@ -40,7 +40,6 @@ export const state = () => ({
       googleMapLink: 'https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=301+South+Gun+Club+Road+Aurora,+CO+80018&aq=&sll=39.710587,-104.717817&sspn=0.024067,0.037165&ie=UTF8&hq=&hnear=301+S+Gun+Club+Rd,+Aurora,+Arapahoe,+Colorado+80018&t=m&ll=39.709564,-104.716187&spn=0.096402,0.124969&z=12&iwloc=',
     }, {
       id: 2,
-      shortName: "PSAC",
       shortName: "CRCPS",
       location: "Byres",
       schedules: {
@@ -89,7 +88,6 @@ export const state = () => ({
       googleMapLink: 'https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=76099+E.+96th+Ave.+Byers,+CO+80103+&aq=&sll=39.690129,-105.126248&sspn=0.202898,0.295601&ie=UTF8&hq=&hnear=76099+E+96th+Ave,+Byers,+Colorado+80103&t=m&ll=39.848612,-104.099579&spn=0.384828,0.499878&z=10&iwloc=',
     }, {
       id: 3,
-      shortName: "PSAC",
       shortName: "YVPS",
       location: "Steamboat",
       schedules: {
@@ -298,6 +296,7 @@ export const state = () => ({
         2019: {
           dayOfWeek: 7,
           weekOfMonth: 4,
+          omit: [4,5,6,7,8,9,10,11,12],
         },
       },
     }, {
