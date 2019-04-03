@@ -1,7 +1,9 @@
 <template>
   <div>
     <navbar/>
-    <nuxt/>
+    <div class="main-content-area">
+      <nuxt/>
+    </div>
     <foot/>
   </div>
 </template>
@@ -53,8 +55,8 @@ $major: $success;
     background: $major;
   }
 }
-section.section {
-  min-height: calc(100vh - 254px)
+.main-content-area {
+  min-height: calc(100vh - 254px);
 }
 .qualifier {
   background-color: rgb(255, 0, 255);

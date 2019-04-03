@@ -41,7 +41,7 @@ export const state = () => ({
     }, {
       id: 2,
       shortName: "CRCPS",
-      location: "Byres",
+      location: "Byers",
       schedules: {
         2019: {
           dayOfWeek: 7,
@@ -344,7 +344,7 @@ export const state = () => ({
       location: "Colorado Springs",
       schedules: {
         2019: {
-          dayOfWeek: 1,
+          dayOfWeek: 7,
           weekOfMonth: 4,
           sectionQualifier: 5,
           omit: [1,2,3],
@@ -352,7 +352,7 @@ export const state = () => ({
         },
       },
       name: 'SoCo Practical Shooters',
-      code: 'TBD',
+      code: 'ECO19',
       hostClub: {
         url: 'http://pikespeakgunclub.org/',
         name: 'Pikes Peak Gun Club',
