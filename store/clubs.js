@@ -110,8 +110,8 @@ export const state = () => ({
       contacts: [
         {
           position: 'President',
-          name: 'Jae Seifert',
-          email: 'jae@themacranch.com',
+          name: 'Yoshi Yonekawa',
+          email: 'yampavalleypracticalshooters@gmail.com',
           phone: '970-879-1270'
         },{
           position: 'Safety Instructor',
@@ -429,7 +429,7 @@ export const state = () => ({
       schedules: {
         2019: {
           dayOfWeek: 5,
-          weekOfMonth: 3,
+          weekOfMonth: [1, 3],
         },
       },
       name: 'Bristlecone Practical Shooters',

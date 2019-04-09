@@ -9,6 +9,17 @@ export default {
     'month',
     'year'
   ],
+  methods: {
+    calculateDay (week_of_month) {
+      var day_of_week = this.scheduleInfo.dayOfWeek - 1
+      var start_of_month = new Date(this.year, this.month - 1).getDay()
+      var first_instance_of_day_of_week = ((day_of_week - start_of_month)) + 1
+      if (first_instance_of_day_of_week <= 0) {
+        first_instance_of_day_of_week += 7
+      }
+      return first_instance_of_day_of_week + 7 * (week_of_month - 1)
+    },
+  },
   computed: {
     scheduleInfo () {
       return this.clubInfo.schedules[this.year]
@@ -28,14 +39,15 @@ export default {
       } else if (this.isOmitted) {
         return ''
       } else {
-        var day_of_week = this.scheduleInfo.dayOfWeek - 1
-        var week_of_month = this.scheduleInfo.weekOfMonth - 1
-        var start_of_month = new Date(this.year, this.month - 1).getDay()
-        var first_instance_of_day_of_week = ((day_of_week - start_of_month)) + 1
-        if (first_instance_of_day_of_week <= 0) {
-          first_instance_of_day_of_week += 7
+        if (this.scheduleInfo.weekOfMonth.constructor == Array) {
+          var temp = '';
+          for (var week_of_month of this.scheduleInfo.weekOfMonth) {
+            temp += this.calculateDay(week_of_month) + ", "
+          }
+          return temp.replace(/, $/i, '')
+        } else {
+          return this.calculateDay(this.scheduleInfo.weekOfMonth)
         }
-        return first_instance_of_day_of_week + 7 * week_of_month
       }
     },
     isMajor () {
