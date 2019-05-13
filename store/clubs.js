@@ -346,7 +346,7 @@ export const state = () => ({
         2019: {
           dayOfWeek: 7,
           weekOfMonth: 4,
-          sectionQualifier: 5,
+          sectionQualifier: 6,
           omit: [1,2,3],
           superClassifiers: [8],
         },
