@@ -8,7 +8,7 @@ export const state = () => ({
         2019: {
           dayOfWeek: 1,
           weekOfMonth: 1,
-          sectionQualifier: 5,
+          sectionQualifier: 9,
         },
       },
       name: 'Practical Shooters Association of Colorado',
@@ -133,7 +133,7 @@ export const state = () => ({
         2019: {
           dayOfWeek: 1,
           weekOfMonth: 2,
-          sectionQualifier: 6,
+          sectionQualifier: 8,
         },
       },
       name: 'Boulder Rifle Club',
