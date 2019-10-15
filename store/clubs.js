@@ -372,9 +372,6 @@ export const state = () => ({
         },{
           position: 'Safety Instructor',
           name: 'Joel Whittington',
-        },{
-          position: 'Safety Instructor',
-          name: 'Darren LoRé',
         }
       ],
       fees: {
