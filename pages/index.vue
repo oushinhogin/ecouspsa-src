@@ -8,6 +8,9 @@
             <h2 class="subtitle">Serving the Eastern Colorado USPSA Section</h2>
           </div>
           <div class="uspsa">
+            <img src="/ecouspsa.png">
+          </div>
+          <div class="uspsa">
             <a href="http://www.uspsa.org" target="_blank"><img src="/diamond-logo-tranparent-back1.png"></a>
           </div>
         </div>

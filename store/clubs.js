@@ -69,8 +69,8 @@ export const state = () => ({
           email: 'markpcolo@gmail.com',
         },{
           position: 'Match Director',
-          name: 'Price McDonald',
-          email: 'pricemcdonald@gmail.com',
+          name: 'Steve Cline',
+          email: 'thedeadeyemethod@att.net',
         },{
           position: 'USPSA Rifle Match Director',
           name: 'Brad Olson ',
