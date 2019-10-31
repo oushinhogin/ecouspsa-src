@@ -13,7 +13,7 @@
         <li><a href="/miscstatic/sectionbylaws.pdf">Section Bylaws (PDF)</a></li>
         <li><a href="/miscstatic/Safety%20Program.pdf">Safety Program (PDF)</a></li>
         <li><a href="/miscstatic/safetytrainingpolicy.pdf">Draft safety policy (PDF)</a></li>
-        <li><a href="/miscstatic/repeatdqpolicy.pdf">Repeat DQ policy (PDF)</a></li>
+        <li><a href="/miscstatic/ECO_USPSA_Safety_Repeat_DQ_Policy.pdf">Repeat DQ policy (PDF)</a></li>
         <li><a href="/miscstatic/nationalsslots.pdf">Nationals slot policy (PDF)</a></li>
       </ul>
 

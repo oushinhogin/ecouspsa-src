@@ -18,7 +18,7 @@ export const state = () => ({
         name: 'Aurora Gun Club',
       },
       times: {
-        'Shooter&#39;s Meeting': '9:00 AM',
+        'Shooter&#39;s Meeting': '9:30 AM',
       },
       contacts: [
         {
