@@ -10,6 +10,11 @@ export const state = () => ({
           weekOfMonth: 1,
           sectionQualifier: 9,
         },
+        2020: {
+          dayOfWeek: 1,
+          weekOfMonth: 1,
+          sectionQualifier: 9,
+        },
       },
       name: 'Practical Shooters Association of Colorado',
       code: 'ECO08',
@@ -51,6 +56,12 @@ export const state = () => ({
           majors: {
             m9: '13-15<sup>2</sup>',
           },
+        },
+        2020: {
+          dayOfWeek: 7,
+          weekOfMonth: 2,
+          sectionQualifier: 7,
+          superClassifiers: [5],
         },
       },
       name: 'Colorado Rifle Club Practical Shooters',
@@ -97,6 +108,12 @@ export const state = () => ({
           sectionQualifier: 10,
           iffy: [1,2,3,4,11,12],
         },
+        2020: {
+          dayOfWeek: 7,
+          weekOfMonth: 2,
+          sectionQualifier: 10,
+          iffy: [1,2,3,4,11,12],
+        },
       },
       name: 'Yampa Valley Practical Shooters',
       code: 'ECO14',
@@ -131,6 +148,11 @@ export const state = () => ({
       location: "Boulder",
       schedules: {
         2019: {
+          dayOfWeek: 1,
+          weekOfMonth: 2,
+          sectionQualifier: 8,
+        },
+        2020: {
           dayOfWeek: 1,
           weekOfMonth: 2,
           sectionQualifier: 8,
@@ -171,6 +193,12 @@ export const state = () => ({
       location: "Pueblo",
       schedules: {
         2019: {
+          dayOfWeek: 1,
+          weekOfMonth: 2,
+          sectionQualifier: 4,
+          superClassifiers: [10],
+        },
+        2020: {
           dayOfWeek: 1,
           weekOfMonth: 2,
           sectionQualifier: 4,
@@ -217,6 +245,11 @@ export const state = () => ({
           weekOfMonth: 3,
           sectionQualifier: 8,
         },
+        2020: {
+          dayOfWeek: 7,
+          weekOfMonth: 3,
+          sectionQualifier: 8,
+        },
       },
       name: 'High Plains Practical Shooters',
       code: 'ECO12',
@@ -259,6 +292,14 @@ export const state = () => ({
             m6: 'May 31 - Jun 3<sup>1</sup>',
           },
         },
+        2020: {
+          dayOfWeek: 1,
+          weekOfMonth: 3,
+          sectionQualifier: 11,
+          majors: {
+            m6: 'Jun 12 - Jun 14<sup>1</sup>',
+          },
+        },
       },
       name: 'Weld County Practical Shooters',
       code: 'ECO09',
@@ -298,6 +339,11 @@ export const state = () => ({
           weekOfMonth: 4,
           omit: [4,5,6,7,8,9,10,11,12],
         },
+        2020: {
+          dayOfWeek: 7,
+          weekOfMonth: 4,
+          omit: [4,5,6,7,8,9,10,11,12],
+        },
       },
     }, {
       id: 9,
@@ -305,6 +351,12 @@ export const state = () => ({
       location: "Dumont",
       schedules: {
         2019: {
+          dayOfWeek: 1,
+          weekOfMonth: 4,
+          sectionQualifier: 7,
+          iffy: [1,2,11,12],
+        },
+        2020: {
           dayOfWeek: 1,
           weekOfMonth: 4,
           sectionQualifier: 7,
@@ -344,6 +396,13 @@ export const state = () => ({
       location: "Colorado Springs",
       schedules: {
         2019: {
+          dayOfWeek: 7,
+          weekOfMonth: 4,
+          sectionQualifier: 6,
+          omit: [1,2,3],
+          superClassifiers: [8],
+        },
+        2020: {
           dayOfWeek: 7,
           weekOfMonth: 4,
           sectionQualifier: 6,
@@ -390,6 +449,10 @@ export const state = () => ({
           dayOfWeek: 2,
           weekOfMonth: 1,
         },
+        2020: {
+          dayOfWeek: 2,
+          weekOfMonth: 1,
+        },
       },
       name: 'Whistling Pines Practical Shooters',
       code: 'ECO13',
@@ -425,6 +488,10 @@ export const state = () => ({
       location: "Lakewood",
       schedules: {
         2019: {
+          dayOfWeek: 5,
+          weekOfMonth: [1, 3],
+        },
+        2020: {
           dayOfWeek: 5,
           weekOfMonth: [1, 3],
         },
