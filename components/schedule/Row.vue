@@ -1,5 +1,5 @@
 <template>
-  <tr>
+  <tr v-if="info.schedules.hasOwnProperty(year)">
     <td>
       <nuxt-link :to="link" v-if="!noLink">{{ info.shortName }}</nuxt-link>
       <span v-else>{{info.shortName}}</span>

@@ -339,11 +339,6 @@ export const state = () => ({
           weekOfMonth: 4,
           omit: [4,5,6,7,8,9,10,11,12],
         },
-        2020: {
-          dayOfWeek: 7,
-          weekOfMonth: 4,
-          omit: [4,5,6,7,8,9,10,11,12],
-        },
       },
     }, {
       id: 9,
