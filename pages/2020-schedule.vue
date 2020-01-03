@@ -28,7 +28,8 @@
 
             <h4>Colorado Major Matches</h4>
             <ol>
-              <li>Rocky Mountain 300 – June 12-14, 2020 – Weld County</li>
+              <li>Rocky Mountain 300 – June 5-7, 2020 – Weld County</li>
+              <li>Mile High Showdown &mdash; Sept 18-20, 2020 &mdash; HPPS</li>
               <li>2020 Big Horn Classic/Colorado USPSA Championship &mdash; June 24-28, 2020</li>
             </ol>
             <h4>USPSA Nationals</h4>

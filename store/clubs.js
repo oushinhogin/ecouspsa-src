@@ -249,6 +249,9 @@ export const state = () => ({
           dayOfWeek: 7,
           weekOfMonth: 3,
           sectionQualifier: 8,
+          majors: {
+            m9: '18-20<sup>2</sup>',
+          },
         },
       },
       name: 'High Plains Practical Shooters',
@@ -296,8 +299,9 @@ export const state = () => ({
           dayOfWeek: 1,
           weekOfMonth: 3,
           sectionQualifier: 11,
+          omit: [9],
           majors: {
-            m6: 'Jun 12 - Jun 14<sup>1</sup>',
+            m6: '5-7<sup>1</sup>',
           },
         },
       },
@@ -313,13 +317,8 @@ export const state = () => ({
       contacts: [
         {
           position: 'President',
-          name: 'Matt Unger',
-          email: 'zjhokunger@aol.com',
-          phone: '970-222-8351'
-        },{
-          position: 'Safety Instructor',
-          name: 'Matt Unger',
-          email: 'zjhokunger@aol.com',
+          name: 'Patrick Jones',
+          email: 'uspsa@wcfw.org',
         }
       ],
       fees: {
@@ -400,9 +399,9 @@ export const state = () => ({
         2020: {
           dayOfWeek: 7,
           weekOfMonth: 4,
-          sectionQualifier: 6,
-          omit: [1,2,3],
-          superClassifiers: [8],
+          sectionQualifier: 9,
+          omit: [1,6],
+          superClassifiers: [5],
         },
       },
       name: 'SoCo Practical Shooters',
@@ -419,13 +418,25 @@ export const state = () => ({
       },
       contacts: [
         {
-          position: 'President',
+          position: 'Match Director',
           name: 'Germaine Adams',
           email: 'socopracticalshooters@gmail.com',
           phone: '719-439-6993'
         },{
-          position: 'Safety Instructor',
+          position: 'Range Master',
+          name: 'Dean Wollam',
+        },{
+          position: 'Statistics',
+          name: 'Brent Voorhees',
+        },{
+          position: 'Treasurer',
+          name: 'Richard Clare',
+        },{
+          position: 'Safety',
           name: 'Joel Whittington',
+        },{
+          position: 'Quartermaster',
+          name: 'Regis Frank',
         }
       ],
       fees: {
@@ -447,6 +458,7 @@ export const state = () => ({
         2020: {
           dayOfWeek: 2,
           weekOfMonth: 1,
+          omit: [9],
         },
       },
       name: 'Whistling Pines Practical Shooters',
@@ -489,6 +501,7 @@ export const state = () => ({
         2020: {
           dayOfWeek: 5,
           weekOfMonth: [1, 3],
+          superClassifiers: [3],
         },
       },
       name: 'Bristlecone Practical Shooters',
