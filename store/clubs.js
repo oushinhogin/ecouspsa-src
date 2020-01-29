@@ -418,22 +418,7 @@ export const state = () => ({
           name: 'Germaine Adams',
           email: 'socopracticalshooters@gmail.com',
           phone: '719-439-6993'
-        },{
-          position: 'Range Master',
-          name: 'Dean Wollam',
-        },{
-          position: 'Statistics',
-          name: 'Brent Voorhees',
-        },{
-          position: 'Treasurer',
-          name: 'Richard Clare',
-        },{
-          position: 'Safety',
-          name: 'Joel Whittington',
-        },{
-          position: 'Quartermaster',
-          name: 'Regis Frank',
-        }
+        },
       ],
       fees: {
         'Member Fee': '$20',
