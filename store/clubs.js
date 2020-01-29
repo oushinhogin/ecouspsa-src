@@ -83,10 +83,6 @@ export const state = () => ({
           name: 'Steve Cline',
           email: 'thedeadeyemethod@att.net',
         },{
-          position: 'USPSA Rifle Match Director',
-          name: 'Brad Olson ',
-          phone: '720-309-2444'
-        },{
           position: 'Safety Instructor',
           name: 'Mark Passamaneck',
           email: 'markpcolo@gmail.com',
