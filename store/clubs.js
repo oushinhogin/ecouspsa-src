@@ -488,7 +488,7 @@ export const state = () => ({
       name: 'Bristlecone Practical Shooters',
       code: 'ECO17',
       hostClub: {
-        url: 'http://www.bristelcoeshooting.com',
+        url: 'http://www.bristleconeshooting.com/',
         name: 'Bristlecone Shooting, Training & Retail Center',
       },
       times: {
@@ -509,9 +509,9 @@ export const state = () => ({
         }
       ],
       fees: {
-        'Member fee': '$18',
-        'Non-member fee': '$20',
-        'Annual dues': 'NA',
+        'Member fee': '$22.50',
+        'Non-member fee': '$25',
+        'Super Classifier fee': '$40',
       },
       googleMapsIframeUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6138.410216386874!2d-105.135754!3d39.712573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b83fa3bf856e1%3A0xc25a9d7fc7ee9f6f!2sBristlecone+Shooting%2C+Training%2C+%26+Retail+Center!5e0!3m2!1sen!2sus!4v1486524626955',
       googleMapLink: 'https://www.google.com/maps/place/Bristlecone+Shooting,+Training,+%26+Retail+Center/@39.712573,-105.135754,15z/data=!4m5!3m4!1s0x0:0xc25a9d7fc7ee9f6f!8m2!3d39.712573!4d-105.135754',
