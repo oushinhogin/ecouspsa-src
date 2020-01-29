@@ -265,8 +265,8 @@ export const state = () => ({
           phone: '303-882-6728'
         },{
           position: 'Safety Instructor',
-          name: 'Robert Christie',
-          email: 'robertlooks@gmail.com',
+          name: 'Matt Gallant',
+          email: 'gallantcodes@gmail.com',
         }
       ],
       times: {
