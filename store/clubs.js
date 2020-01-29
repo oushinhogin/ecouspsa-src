@@ -501,12 +501,7 @@ export const state = () => ({
           name: 'Bryan Clark',
           email: 'bjclarkgm@gmail.com',
           phone: '720-557-6925'
-        },{
-          position: 'President',
-          name: 'Bryan Clark',
-          email: 'bjclarkgm@gmail.com',
-          phone: '720-557-6925'
-        }
+        },
       ],
       fees: {
         'Member fee': '$22.50',
