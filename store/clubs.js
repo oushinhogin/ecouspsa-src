@@ -33,9 +33,8 @@ export const state = () => ({
           phone: '720-980-1284'
         },{
           position: 'Safety Instructor',
-          name: 'R.W. Swainson',
-          email: 'rcswainson@comcast.net',
-          phone: '303-202-0299'
+          name: 'Roger Briden',
+          email: 'rbriden@yahoo.com',
         }
       ],
       fees: {
