@@ -43,6 +43,16 @@ $major: $success;
     background: $section-qualifier;
   }
 }
+span.has-something {
+  display: inline-block;
+  padding: 0 5px;
+  position: relative;
+  &:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+}
 .super-classifier {
   @extend .has-something;
   &:after {

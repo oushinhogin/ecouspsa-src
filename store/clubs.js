@@ -481,7 +481,9 @@ export const state = () => ({
         2020: {
           dayOfWeek: 5,
           weekOfMonth: [1, 3],
-          superClassifiers: [3],
+          override: {
+            m3: '<span class="super-classifier">5,</span> 19',
+          }
         },
       },
       name: 'Bristlecone Practical Shooters',

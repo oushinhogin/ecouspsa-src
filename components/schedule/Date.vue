@@ -36,6 +36,9 @@ export default {
       if (this.isMajor) {
         var majorKey = "m" + this.month
         return this.scheduleInfo.majors[majorKey]
+      } else if (this.isOverride) {
+        const overrideKey = "m" + this.month
+        return this.scheduleInfo.override[overrideKey]
       } else if (this.isOmitted) {
         return ''
       } else {
@@ -56,6 +59,13 @@ export default {
       }
       var majorKey = "m" + this.month
       return this.scheduleInfo.majors.hasOwnProperty(majorKey)
+    },
+    isOverride () {
+      if (!this.scheduleInfo.override) {
+        return false
+      }
+      const key = "m" + this.month
+      return this.scheduleInfo.override.hasOwnProperty(key)
     },
     isIffy () {
       if (!this.scheduleInfo.iffy) {
