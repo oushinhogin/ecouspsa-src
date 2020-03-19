@@ -35,13 +35,19 @@
             <h4>USPSA Nationals</h4>
             <ul>
               <li>
-                <strong>April 8-10, 2020</strong> &mdash; PCC – Frostproof, FL
+                <strong>June 11-14, 2020</strong> &mdash; Multi-gun – Frostproof, FL
               </li>
               <li>
-                <strong>April 29-May 2, 2020</strong> &mdash; SS – Talladega, AL
+                <strong>June 18-21, 2020</strong> &mdash; PCC – Frostproof, FL
               </li>
               <li>
-                <strong>May 3, 2020</strong> &mdash; Rev/L10 – Talladega, AL
+                <strong>Sept. 2-5, 2020</strong> &mdash; SS – Talladega, AL
+              </li>
+              <li>
+                <strong>Sept. 6, 2020</strong> &mdash; Rev/L10 – Talladega, AL
+              </li>
+              <li>
+                <strong>Sept. 23-27, 2020</strong> &mdash; Steel Challenge World Speed Shooting Chanpionship – Talladega, AL
               </li>
               <li>
                 <strong>Oct. 18-20, 2020</strong> &mdash; Production/Carry Optics – Frostproof, FL
