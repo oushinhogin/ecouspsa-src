@@ -5,7 +5,7 @@
         <h1>ECO Section</h1>
         <p>
           <strong>Section Coordinator:</strong>
-          <a href="mailto:genebray@fastmail.com">Gene Bray</a>
+          <a href="mailto:eco_section_coordinator@fastmail.com">Gene Bray</a>
           &mdash; 719-439-9859
         </p>
       </div>
