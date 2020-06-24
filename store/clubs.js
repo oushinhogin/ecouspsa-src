@@ -113,7 +113,7 @@ export const state = () => ({
       name: 'Yampa Valley Practical Shooters',
       code: 'ECO14',
       hostClub: {
-        url: 'http://www.routtcountyrifleclub.com',
+        url: 'http://www.routtcountyrifleclub.org',
         name: 'Routt County Rifle Club',
       },
       times: {
