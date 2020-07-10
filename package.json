@@ -14,22 +14,25 @@
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.12",
-    "@fortawesome/free-regular-svg-icons": "^5.6.3",
-    "@fortawesome/free-solid-svg-icons": "^5.6.3",
-    "@fortawesome/vue-fontawesome": "^0.1.4",
-    "@nuxtjs/google-analytics": "^2.0.2",
-    "cross-env": "^5.2.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-regular-svg-icons": "^5.13.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@nuxtjs/google-analytics": "^2.3.0",
+    "compression": "^1.7.4",
+    "cross-env": "^5.2.1",
     "hapi-nuxt": "^1.0.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.13.3",
+    "safe-buffer": "^5.2.1"
   },
   "devDependencies": {
-    "@nuxtjs/bulma": "^1.2.0",
-    "eslint-loader": "^2.1.1",
+    "@nuxtjs/bulma": "^1.2.7",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "eslint-loader": "^2.2.1",
     "node-sass": "^4.14.1",
-    "nodemon": "^1.11.0",
+    "nodemon": "^1.19.4",
     "nuxt-sass-resources-loader": "^2.0.5",
     "push-dir": "^0.4.1",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.3.1"
   }
 }

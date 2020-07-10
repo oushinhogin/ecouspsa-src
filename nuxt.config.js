@@ -40,9 +40,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [,
-    // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    //'@nuxtjs/bulma',
-    ['nuxt-sass-resources-loader', './assets/main.scss'],
+    '@nuxtjs/style-resources',
     ['@nuxtjs/google-analytics', {id: 'UA-132317379-1'}]
   ],
 
@@ -63,4 +61,8 @@ module.exports = {
     extend(config, ctx) {
     }
   },
+  styleResources: {
+   // your settings here
+   scss: ['@/assets/main.scss'],
+  }
 }
