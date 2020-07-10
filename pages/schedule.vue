@@ -19,8 +19,11 @@
         <schedule-table :year="year" />
 
           <div class="notification is-warning">
+            All BRC matches are canceled until further notice.
+            <br />
+            <br />
             All early spring, late fall, and winter matches are subject to
-            advance cancellation due to range conditions, weather, or weather
+            advance cancelation due to range conditions, weather, or weather
             forecasts. Keep an eye on the <nuxt-link
                                             to="results#googlegroup">Google Group</nuxt-link> for updates.
           </div>

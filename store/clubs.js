@@ -150,7 +150,7 @@ export const state = () => ({
         2020: {
           dayOfWeek: 1,
           weekOfMonth: 2,
-          sectionQualifier: 8,
+          omit: [4,5,6,7,8,9,10,11,12],
         },
       },
       name: 'Boulder Rifle Club',
