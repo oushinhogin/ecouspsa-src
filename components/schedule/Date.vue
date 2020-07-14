@@ -85,8 +85,8 @@ export default {
 
 <style scopped>
   td.day {
-    text-align: center;
-    vertical-align: middle;
+    text-align: center !important;
+    vertical-align: middle !important;
   }
   td.iffy {
     background: #e7e7e7;

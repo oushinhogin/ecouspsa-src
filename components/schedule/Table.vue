@@ -5,18 +5,18 @@
         <tr>
           <th>Club</th>
           <th>Location</th>
-          <th>Jan</th>
-          <th>Feb</th>
-          <th>Mar</th>
-          <th>Apr</th>
-          <th>May</th>
-          <th>Jun</th>
-          <th>Jul</th>
-          <th>Aug</th>
-          <th>Sep</th>
-          <th>Oct</th>
-          <th>Nov</th>
-          <th>Dec</th>
+          <th class="month">Jan</th>
+          <th class="month">Feb</th>
+          <th class="month">Mar</th>
+          <th class="month">Apr</th>
+          <th class="month">May</th>
+          <th class="month">Jun</th>
+          <th class="month">Jul</th>
+          <th class="month">Aug</th>
+          <th class="month">Sep</th>
+          <th class="month">Oct</th>
+          <th class="month">Nov</th>
+          <th class="month">Dec</th>
         </tr>
       </thead>
       <tbody>
@@ -96,5 +96,10 @@ export default {
 <style lang="scss" scoped>
 table {
   margin-bottom: 25px;
+  thead {
+    th.month {
+      text-align: center !important;
+    }
+  }
 }
 </style>

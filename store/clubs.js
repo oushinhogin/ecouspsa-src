@@ -196,8 +196,7 @@ export const state = () => ({
         2020: {
           dayOfWeek: 1,
           weekOfMonth: 2,
-          sectionQualifier: 4,
-          superClassifiers: [10],
+          sectionQualifier: 10,
         },
       },
       name: 'Pike&#39;s Peak Practical Shooters',

@@ -64,5 +64,6 @@ module.exports = {
   styleResources: {
    // your settings here
    scss: ['@/assets/main.scss'],
-  }
+  },
+  telemetry: false,
 }
