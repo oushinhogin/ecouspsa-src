@@ -51,7 +51,7 @@ export const state = () => ({
           dayOfWeek: 7,
           weekOfMonth: 2,
           sectionQualifier: 7,
-          superClassifiers: [8],
+          superClassifiers: [5],
           majors: {
             m9: '13-15<sup>2</sup>',
           },
@@ -60,7 +60,7 @@ export const state = () => ({
           dayOfWeek: 7,
           weekOfMonth: 2,
           sectionQualifier: 7,
-          superClassifiers: [5],
+          superClassifiers: [8],
         },
       },
       name: 'Colorado Rifle Club Practical Shooters',
