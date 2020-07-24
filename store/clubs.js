@@ -51,7 +51,7 @@ export const state = () => ({
           dayOfWeek: 7,
           weekOfMonth: 2,
           sectionQualifier: 7,
-          superClassifiers: [5],
+          superClassifiers: [8],
           majors: {
             m9: '13-15<sup>2</sup>',
           },
