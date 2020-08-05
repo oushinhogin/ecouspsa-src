@@ -308,7 +308,7 @@ export const state = () => ({
       times: {
         'Setup start': '7:30 AM',
         'New shooter safety briefing': '8:00 AM',
-        'Registration': '<a href="https://practiscore.com/clubs/weld_county_practical_shooters">Click Here</a>',
+        'Registration': '<a target="_BLANK" href="https://practiscore.com/clubs/weld_county_practical_shooters">Click Here</a>',
         'The front gate locks': '9:45 AM',
         'The shooter&#39;s meeting': '10 AM',
       },
