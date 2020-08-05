@@ -35,7 +35,7 @@
               <th>
                 <span v-html="title"></span>:
               </th>
-              <td>{{time}}</td>
+              <td v-html="time"></td>
             </tr>
             <tr>
               <th colspan="2" class="is-dark">
