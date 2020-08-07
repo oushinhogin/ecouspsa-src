@@ -292,7 +292,7 @@ export const state = () => ({
         2020: {
           dayOfWeek: 1,
           weekOfMonth: 3,
-          sectionQualifier: 5,
+          sectionQualifier: 8,
           omit: [9],
           majors: {
             m6: '5-7<sup>1</sup>',
