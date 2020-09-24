@@ -294,9 +294,9 @@ export const state = () => ({
           weekOfMonth: 3,
           sectionQualifier: 8,
           omit: [9],
-          majors: {
-            m6: '5-7<sup>1</sup>',
-          },
+          override: {
+            m10: '<span class="major">9-11<sup>1</sup></span>, 18, 31',
+          }
         },
       },
       name: 'Weld County Practical Shooters',
