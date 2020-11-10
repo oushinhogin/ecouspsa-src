@@ -15,6 +15,10 @@ export const state = () => ({
           weekOfMonth: 1,
           sectionQualifier: 9,
         },
+        2021: {
+          dayOfWeek: 1,
+          weekOfMonth: 1,
+        },
       },
       name: 'Practical Shooters Association of Colorado',
       code: 'ECO08',
@@ -61,6 +65,10 @@ export const state = () => ({
           weekOfMonth: 2,
           sectionQualifier: 7,
           superClassifiers: [8],
+        },
+        2021: {
+          dayOfWeek: 7,
+          weekOfMonth: 2,
         },
       },
       name: 'Colorado Rifle Club Practical Shooters',
@@ -109,6 +117,11 @@ export const state = () => ({
           sectionQualifier: 10,
           iffy: [1,2,3,4,11,12],
         },
+        2021: {
+          dayOfWeek: 7,
+          weekOfMonth: 2,
+          iffy: [1,2,3,4,11,12],
+        },
       },
       name: 'Yampa Valley Practical Shooters',
       code: 'ECO14',
@@ -151,6 +164,11 @@ export const state = () => ({
           dayOfWeek: 1,
           weekOfMonth: 2,
           omit: [4,5,6,7,8,9,10,11,12],
+        },
+        2021: {
+          dayOfWeek: 1,
+          weekOfMonth: 2,
+          omit: [1,2,3,4,5,6,7,8,9,10,11,12],
         },
       },
       name: 'Boulder Rifle Club',
@@ -197,6 +215,10 @@ export const state = () => ({
           dayOfWeek: 1,
           weekOfMonth: 2,
           sectionQualifier: 11,
+        },
+        2021: {
+          dayOfWeek: 1,
+          weekOfMonth: 2,
         },
       },
       name: 'Pike&#39;s Peak Practical Shooters',
@@ -246,6 +268,10 @@ export const state = () => ({
           majors: {
             m9: '18-20<sup>2</sup>',
           },
+        },
+        2021: {
+          dayOfWeek: 7,
+          weekOfMonth: 3,
         },
       },
       name: 'High Plains Practical Shooters',
@@ -297,6 +323,10 @@ export const state = () => ({
           override: {
             m10: '<span class="major">9-11<sup>1</sup></span>, 18, 31',
           }
+        },
+        2021: {
+          dayOfWeek: 1,
+          weekOfMonth: 3,
         },
       },
       name: 'Weld County Practical Shooters',
@@ -354,6 +384,11 @@ export const state = () => ({
           sectionQualifier: 7,
           iffy: [1,2,11,12],
         },
+        2021: {
+          dayOfWeek: 1,
+          weekOfMonth: 4,
+          iffy: [1,2,11,12],
+        },
       },
       name: 'Clear Creek Practical Shooters',
       code: 'ECO06',
@@ -401,6 +436,10 @@ export const state = () => ({
           omit: [1],
           superClassifiers: [8],
         },
+        2021: {
+          dayOfWeek: 7,
+          weekOfMonth: 4,
+        },
       },
       name: 'SoCo Practical Shooters',
       code: 'ECO19',
@@ -442,6 +481,10 @@ export const state = () => ({
           dayOfWeek: 2,
           weekOfMonth: 1,
           omit: [9],
+        },
+        2021: {
+          dayOfWeek: 2,
+          weekOfMonth: 1,
         },
       },
       name: 'Whistling Pines Practical Shooters',
@@ -488,6 +531,10 @@ export const state = () => ({
             m3: '<span class="super-classifier">5,</span> 19',
           }
         },
+        2021: {
+          dayOfWeek: 5,
+          weekOfMonth: [1, 3],
+        },
       },
       name: 'Bristlecone Practical Shooters',
       code: 'ECO17',
@@ -523,6 +570,11 @@ export const state = () => ({
           dayOfWeek: 2,
           weekOfMonth: 3,
           omit: [1,2,3,4,5,6,7,8,9,10],
+        },
+        2021: {
+          dayOfWeek: 2,
+          weekOfMonth: 3,
+          sectionQualifier: 4,
         },
       },
       name: 'Arvada Rifle and Pistol Practical Shooters',
