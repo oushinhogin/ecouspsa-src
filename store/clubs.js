@@ -514,6 +514,47 @@ export const state = () => ({
       },
       googleMapsIframeUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6138.410216386874!2d-105.135754!3d39.712573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b83fa3bf856e1%3A0xc25a9d7fc7ee9f6f!2sBristlecone+Shooting%2C+Training%2C+%26+Retail+Center!5e0!3m2!1sen!2sus!4v1486524626955',
       googleMapLink: 'https://www.google.com/maps/place/Bristlecone+Shooting,+Training,+%26+Retail+Center/@39.712573,-105.135754,15z/data=!4m5!3m4!1s0x0:0xc25a9d7fc7ee9f6f!8m2!3d39.712573!4d-105.135754',
+    }, {
+      id: 1,
+      shortName: "AR&PC",
+      location: "Arvada",
+      schedules: {
+        2020: {
+          dayOfWeek: 2,
+          weekOfMonth: 3,
+          omit: [1,2,3,4,5,6,7,8,9,10],
+        },
+      },
+      name: 'Arvada Rifle and Pistol Practical Shooters',
+      code: 'ECO20',
+      hostClub: {
+        url: 'https://www.arpcinc.com/USPSA',
+        name: 'Arvada Rifle and Pistol Club',
+      },
+      times: {
+        'Registration': '5:00-5:45 pm',
+        'New Shooter Safety Briefing': '5:00 pm',
+        'Shooters Meeting': '5:45 pm',
+      },
+      contacts: [
+        {
+          position: 'President',
+          name: 'Mike Lies',
+          email: 'mikelies2525@gmail.com',
+          phone: '303-819-1979'
+        },{
+          position: 'Safety Instructor',
+          name: 'Matthew Krause',
+          email: 'mkrause.design@gmail.com',
+          phone: '818-590-5763'
+        }
+      ],
+      fees: {
+        'Member Fee': '$20',
+        'Non-member Fee': '$25',
+      },
+      googleMapsIframeUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.210536992554!2d-105.17386968420213!3d39.80226897944134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8f78646abee3%3A0x3b4317cc98605024!2s5930%20McIntyre%20St%2C%20Golden%2C%20CO%2080403!5e0!3m2!1sen!2sus!4v1605020512402!5m2!1sen!2sus',
+      googleMapLink: 'https://goo.gl/maps/s3AUBpUUAJLCN6t18',
     },
   ]
 })
