@@ -6,13 +6,9 @@
           <h1 class="title">USPSA Matches {{year}}</h1>
           <h2 class="subtitle">
             (past schedules:
-            <nuxt-link to="/past-schedules/2013">2013</nuxt-link>,
-            <nuxt-link to="/past-schedules/2014">2014</nuxt-link>,
-            <nuxt-link to="/past-schedules/2015">2015</nuxt-link>,
-            <nuxt-link to="/past-schedules/2016">2016</nuxt-link>,
-            <nuxt-link to="/past-schedules/2017">2017</nuxt-link>,
             <nuxt-link to="/past-schedules/2018">2018</nuxt-link>,
-            <nuxt-link to="/past-schedules/2019">2019</nuxt-link>)
+            <nuxt-link to="/past-schedules/2019">2019</nuxt-link>,
+            <nuxt-link to="/past-schedules/2020">2020</nuxt-link>)
           </h2>
         </div>
 
@@ -28,35 +24,23 @@
                                             to="results#googlegroup">Google Group</nuxt-link> for updates.
           </div>
           <div class="content">
-
             <h4>Colorado Major Matches</h4>
-            <ol>
-              <li>Rocky Mountain 300 – Oct. 9-11, 2020 – Weld County</li>
-              <li>Mile High Showdown &mdash; Sept. 18-20, 2020 &mdash; HPPS</li>
-            </ol>
+            <ul>
+              <li>6/4/21 - 6/6/21 Rocky Mountain 300 Weld, CO</li>
+              <li>6/25/21 - 6/27/21 Colorado State - Big Horn Classic Grand Junction, CO</li>
+              <li>7/16/21 - 7/18/21 Mile High Showdown Ramah, CO</li>
+            </ul>
             <h4>USPSA Nationals</h4>
             <ul>
-              <li>
-                <strong>June 11-14, 2020</strong> &mdash; Multi-gun – Frostproof, FL
-              </li>
-              <li>
-                <strong>June 18-21, 2020</strong> &mdash; PCC – Frostproof, FL
-              </li>
-              <li>
-                <strong>Sept. 2-5, 2020</strong> &mdash; SS – Talladega, AL
-              </li>
-              <li>
-                <strong>Sept. 6, 2020</strong> &mdash; Rev/L10 – Talladega, AL
-              </li>
-              <li>
-                <strong>Sept. 23-27, 2020</strong> &mdash; Steel Challenge World Speed Shooting Chanpionship – Talladega, AL
-              </li>
-              <li>
-                <strong>Oct. 18-20, 2020</strong> &mdash; Production/Carry Optics – Frostproof, FL
-              </li>
-              <li>
-                <strong>Oct. 22-24, 2020</strong> &mdash; Limited/Open – Frostproof, FL
-              </li>
+              <li>5/7/21 - 5/9/21 LoCap Nationals (Prod, SS, L10, Revo) Talladega, AL</li>
+              <li>10/16/21 - 10/18/21 Carry Optics / PCC Nationals Talladega, AL</li>
+              <li>10/22/21 - 10/24/21 Limited/Open Nationals Talladega, AL</li>
+            </ul>
+            <h4>Nearby Area Matches</h4>
+            <ul>
+              <li>7/30/21 - 8/1/21 Area 3 Championship Grand Island, NE</li>
+              <li>8/6/21 - 8/8/21 Area 1 Championship Puyallup, WA</li>
+              <li>11/11/21 - 11/14/21 Area 2 Championship Mesa, AZ</li>
             </ul>
           </div>
       </div>
@@ -73,7 +57,7 @@ export default {
   },
   data () {
     return {
-      year: 2020,
+      year: 2021,
     }
   }
 }

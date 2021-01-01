@@ -31,9 +31,32 @@
 
             <h4>Colorado Major Matches</h4>
             <ol>
+              <li>Rocky Mountain 300 – Oct. 9-11, 2020 – Weld County</li>
+              <li>Mile High Showdown &mdash; Sept. 18-20, 2020 &mdash; HPPS</li>
             </ol>
             <h4>USPSA Nationals</h4>
             <ul>
+              <li>
+                <strong>June 11-14, 2020</strong> &mdash; Multi-gun – Frostproof, FL
+              </li>
+              <li>
+                <strong>June 18-21, 2020</strong> &mdash; PCC – Frostproof, FL
+              </li>
+              <li>
+                <strong>Sept. 2-5, 2020</strong> &mdash; SS – Talladega, AL
+              </li>
+              <li>
+                <strong>Sept. 6, 2020</strong> &mdash; Rev/L10 – Talladega, AL
+              </li>
+              <li>
+                <strong>Sept. 23-27, 2020</strong> &mdash; Steel Challenge World Speed Shooting Chanpionship – Talladega, AL
+              </li>
+              <li>
+                <strong>Oct. 18-20, 2020</strong> &mdash; Production/Carry Optics – Frostproof, FL
+              </li>
+              <li>
+                <strong>Oct. 22-24, 2020</strong> &mdash; Limited/Open – Frostproof, FL
+              </li>
             </ul>
           </div>
       </div>
@@ -50,7 +73,7 @@ export default {
   },
   data () {
     return {
-      year: 2021,
+      year: 2020,
     }
   }
 }

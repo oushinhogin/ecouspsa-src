@@ -3,7 +3,7 @@ export const state = () => ({
     {
       id: 1,
       shortName: "PSAC",
-      location: "Aurora (Sunday)",
+      location: "Aurora",
       schedules: {
         2019: {
           dayOfWeek: 1,
@@ -439,6 +439,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 7,
           weekOfMonth: 4,
+          omit: [6, 12],
         },
       },
       name: 'SoCo Practical Shooters',
