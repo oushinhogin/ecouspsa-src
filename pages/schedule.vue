@@ -25,11 +25,11 @@
           </div>
           <div class="content">
             <h4>Colorado Major Matches</h4>
-            <ul>
+            <ol>
               <li>6/4/21 - 6/6/21 Rocky Mountain 300 Weld, CO</li>
               <li>6/25/21 - 6/27/21 Colorado State - Big Horn Classic Grand Junction, CO</li>
               <li>7/16/21 - 7/18/21 Mile High Showdown Ramah, CO</li>
-            </ul>
+            </ol>
             <h4>USPSA Nationals</h4>
             <ul>
               <li>5/7/21 - 5/9/21 LoCap Nationals (Prod, SS, L10, Revo) Talladega, AL</li>

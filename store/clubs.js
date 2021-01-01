@@ -18,6 +18,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 1,
           weekOfMonth: 1,
+          sectionQualifier: 9,
         },
       },
       name: 'Practical Shooters Association of Colorado',
@@ -69,6 +70,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 7,
           weekOfMonth: 2,
+          sectionQualifier: 7,
         },
       },
       name: 'Colorado Rifle Club Practical Shooters',
@@ -121,6 +123,7 @@ export const state = () => ({
           dayOfWeek: 7,
           weekOfMonth: 2,
           iffy: [1,2,3,4,11,12],
+          sectionQualifier: 10,
         },
       },
       name: 'Yampa Valley Practical Shooters',
@@ -219,6 +222,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 1,
           weekOfMonth: 2,
+          sectionQualifier: 11,
         },
       },
       name: 'Pike&#39;s Peak Practical Shooters',
@@ -272,6 +276,10 @@ export const state = () => ({
         2021: {
           dayOfWeek: 7,
           weekOfMonth: 3,
+          sectionQualifier: 8,
+          majors: {
+            m7: '16-18<sup>3</sup>',
+          },
         },
       },
       name: 'High Plains Practical Shooters',
@@ -327,6 +335,10 @@ export const state = () => ({
         2021: {
           dayOfWeek: 1,
           weekOfMonth: 3,
+          sectionQualifier: 8,
+          majors: {
+            m6: '4-6<sup>1</sup>',
+          },
         },
       },
       name: 'Weld County Practical Shooters',
@@ -387,6 +399,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 1,
           weekOfMonth: 4,
+          sectionQualifier: 7,
           iffy: [1,2,11,12],
         },
       },
@@ -439,6 +452,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 7,
           weekOfMonth: 4,
+          sectionQualifier: 7,
           omit: [6, 12],
         },
       },
