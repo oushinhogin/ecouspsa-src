@@ -336,8 +336,10 @@ export const state = () => ({
           dayOfWeek: 1,
           weekOfMonth: 3,
           sectionQualifier: 8,
-          majors: {
-            m6: '4-6<sup>1</sup>',
+          omit: [7],
+          override: {
+            m6: '<span class="major">4-6<sup>1</sup></span>, 20',
+            m8: '29',
           },
         },
       },
