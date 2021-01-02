@@ -335,7 +335,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 1,
           weekOfMonth: 3,
-          sectionQualifier: 8,
+          sectionQualifier: 5,
           omit: [7],
           override: {
             m6: '<span class="major">4-6<sup>1</sup></span>, 20',
@@ -454,7 +454,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 7,
           weekOfMonth: 4,
-          sectionQualifier: 7,
+          sectionQualifier: 9,
           omit: [6, 12],
         },
       },
