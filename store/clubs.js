@@ -591,7 +591,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 2,
           weekOfMonth: 3,
-          sectionQualifier: 4,
+          superClassifiers: [4],
         },
       },
       name: 'Arvada Rifle and Pistol Practical Shooters',
