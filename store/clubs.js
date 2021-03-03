@@ -34,7 +34,7 @@ export const state = () => ({
         {
           position: 'President',
           name: 'Josh Horner',
-          email: 'oushinhogin@gmail.com',
+          email: 'josh@horner.im',
           phone: '720-980-1284'
         },{
           position: 'Safety Instructor',
@@ -609,7 +609,7 @@ export const state = () => ({
         {
           position: 'President',
           name: 'Mike Lies',
-          email: 'mikelies2525@gmail.com',
+          email: 'mikelies@protonmail.com',
           phone: '303-819-1979'
         },{
           position: 'Safety Instructor',
