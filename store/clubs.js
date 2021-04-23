@@ -171,7 +171,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 1,
           weekOfMonth: 2,
-          omit: [1,2,3,4,5,6,7,8,9,10,11,12],
+          omit: [1,2,3],
         },
       },
       name: 'Boulder Rifle Club',
@@ -551,6 +551,9 @@ export const state = () => ({
         2021: {
           dayOfWeek: 5,
           weekOfMonth: [1, 3],
+          override: {
+            m5: '6, <span class="super-classifier">20</span>',
+          }
         },
       },
       name: 'Bristlecone Practical Shooters',
