@@ -36,10 +36,6 @@ export const state = () => ({
           name: 'Josh Horner',
           email: 'josh@horner.im',
           phone: '720-980-1284'
-        },{
-          position: 'Safety Instructor',
-          name: 'Roger Briden',
-          email: 'rbriden@yahoo.com',
         }
       ],
       fees: {
