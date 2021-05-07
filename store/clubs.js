@@ -334,7 +334,7 @@ export const state = () => ({
           sectionQualifier: 5,
           omit: [7],
           override: {
-            m6: '<span class="major">4-6<sup>1</sup></span>, 20',
+            m6: '<span class="major">4-6<sup>1</sup></span>, <span class="super-classifier">20</span>',
             m8: '29',
           },
         },
