@@ -18,7 +18,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 1,
           weekOfMonth: 1,
-          sectionQualifier: 9,
+          sectionQualifier: 8,
         },
       },
       name: 'Practical Shooters Association of Colorado',
@@ -168,6 +168,7 @@ export const state = () => ({
           dayOfWeek: 1,
           weekOfMonth: 2,
           omit: [1,2,3],
+          sectionQualifier: 9,
         },
       },
       name: 'Boulder Rifle Club',
