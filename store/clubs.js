@@ -236,8 +236,9 @@ export const state = () => ({
       contacts: [
         {
           position: 'President',
-          name: 'Curtis Brotherston',
-          email: 'aznmedic@gmail.com',
+          name: 'Brandyn Ness',
+          email: 'brandyn.e.ness@gmail.com',
+          phone: '719-963-7219'
         },{
           position: 'Safety Instructor',
           name: 'Tom Freeman',
