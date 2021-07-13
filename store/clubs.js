@@ -220,6 +220,7 @@ export const state = () => ({
           dayOfWeek: 1,
           weekOfMonth: 2,
           sectionQualifier: 11,
+          superClassifiers: [10],
         },
       },
       name: 'Pike&#39;s Peak Practical Shooters',
@@ -500,6 +501,7 @@ export const state = () => ({
         2021: {
           dayOfWeek: 2,
           weekOfMonth: 1,
+          omit: [9],
         },
       },
       name: 'Whistling Pines Practical Shooters',
