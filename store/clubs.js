@@ -611,9 +611,9 @@ export const state = () => ({
       contacts: [
         {
           position: 'President',
-          name: 'Mike Lies',
-          email: 'mikelies@protonmail.com',
-          phone: '303-819-1979'
+          name: 'Jon Manna',
+          email: 'jcmanna@comcast.net',
+          phone: '720-641-1919'
         },{
           position: 'Safety Instructor',
           name: 'Matthew Krause',
