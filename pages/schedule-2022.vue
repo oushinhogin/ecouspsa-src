@@ -29,8 +29,6 @@
                   <th>Match Name</th>
                   <th>Location</th>
                   <th>Fee</th>
-                  <th>When Does Reg Open?</th>
-                  <th>On PS?</th>
                 </tr>
               </thead>
 
@@ -40,8 +38,6 @@
                   <td>Multigun Nationals</td>
                   <td>Clinton, SC</td>
                   <td>$295</td>
-                  <td>n/a</td>
-                  <td>N</td>
                 </tr>
 
                 <tr>
@@ -49,8 +45,6 @@
                   <td>Colorado State - Big Horn Classic</td>
                   <td>Palisade, CO</td>
                   <td>$150</td>
-                  <td>open now</td>
-                  <td>Y</td>
                 </tr>
 
                 <tr>
@@ -58,8 +52,6 @@
                   <td>Classic Nationals (SS, L10, Revo)</td>
                   <td>Talladega, AL</td>
                   <td>$250</td>
-                  <td>n/a</td>
-                  <td>N</td>
                 </tr>
 
                 <tr>
@@ -67,8 +59,6 @@
                   <td>Area 1 Championship</td>
                   <td>Nampa, ID</td>
                   <td>$200</td>
-                  <td>01/03</td>
-                  <td>Y</td>
                 </tr>
 
                 <tr>
@@ -76,8 +66,6 @@
                   <td>2-Gun PCC/Pistol Nationals</td>
                   <td>Palisade, CO</td>
                   <td>$295</td>
-                  <td>n/a</td>
-                  <td>N</td>
                 </tr>
 
                 <tr>
@@ -85,17 +73,13 @@
                   <td>Rocky Mountain 300</td>
                   <td>Weld, CO</td>
                   <td>$99</td>
-                  <td>01/23</td>
-                  <td>Y</td>
                 </tr>
 
                 <tr>
                   <td>8/11 - 8/14</td>
                   <td>Area 3 Championship</td>
                   <td>Alda, NE</td>
-                  <td>n/a</td>
-                  <td>n/a</td>
-                  <td>N</td>
+                  <td></td>
                 </tr>
 
                 <tr>
@@ -103,8 +87,6 @@
                   <td>Utah State</td>
                   <td>Salt Lake City, UT</td>
                   <td>$160</td>
-                  <td>12/05/21</td>
-                  <td>Y</td>
                 </tr>
 
                 <tr>
@@ -112,8 +94,6 @@
                   <td>Carry Optics Nationals</td>
                   <td>Talladega, AL</td>
                   <td>$285</td>
-                  <td>n/a</td>
-                  <td>N</td>
                 </tr>
 
                 <tr>
@@ -121,8 +101,6 @@
                   <td>Area 4 Championship</td>
                   <td>Tulsa, OK</td>
                   <td>$185</td>
-                  <td>n/a</td>
-                  <td>N</td>
                 </tr>
 
                 <tr>
@@ -130,8 +108,6 @@
                   <td>US IPSC Nationals</td>
                   <td>Frostproof, FL</td>
                   <td>$210</td>
-                  <td>n/a</td>
-                  <td>Y</td>
                 </tr>
 
                 <tr>
@@ -139,8 +115,6 @@
                   <td>Open/Limited/PCC/Production Nationals</td>
                   <td>Palisade, CO</td>
                   <td>$295</td>
-                  <td>n/a</td>
-                  <td>N</td>
                 </tr>
 
                 <tr>
@@ -148,8 +122,6 @@
                   <td>Area 2 Championship</td>
                   <td>Mesa, AZ</td>
                   <td>$330</td>
-                  <td>n/a</td>
-                  <td>N</td>
                 </tr>
               </tbody>
             </table>
