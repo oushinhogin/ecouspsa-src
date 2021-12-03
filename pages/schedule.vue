@@ -10,6 +10,9 @@
             <nuxt-link to="/past-schedules/2019">2019</nuxt-link>,
             <nuxt-link to="/past-schedules/2020">2020</nuxt-link>)
           </h2>
+          <h2 class="subtitle">
+            <nuxt-link to="/schedule-2022">2022 Schedule</nuxt-link>
+          </h2>
         </div>
 
         <schedule-table :year="year" />
