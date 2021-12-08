@@ -5,8 +5,8 @@
         <h1>ECO Section</h1>
         <p>
           <strong>Section Coordinator:</strong>
-          <a href="mailto:eco_section_coordinator@fastmail.com">Gene Bray</a>
-          &mdash; 719-439-9859
+          <a href="mailto:rezman@hotmail.com">Charlie Perez</a>
+          &mdash; 303-882-6728
         </p>
       </div>
 
