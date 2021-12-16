@@ -637,7 +637,7 @@ export const state = () => ({
       googleMapsIframeUrl: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6138.410216386874!2d-105.135754!3d39.712573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b83fa3bf856e1%3A0xc25a9d7fc7ee9f6f!2sBristlecone+Shooting%2C+Training%2C+%26+Retail+Center!5e0!3m2!1sen!2sus!4v1486524626955',
       googleMapLink: 'https://www.google.com/maps/place/Bristlecone+Shooting,+Training,+%26+Retail+Center/@39.712573,-105.135754,15z/data=!4m5!3m4!1s0x0:0xc25a9d7fc7ee9f6f!8m2!3d39.712573!4d-105.135754',
     }, {
-      id: 1,
+      id: 13,
       shortName: "AR&PC",
       location: "Arvada",
       schedules: {
@@ -686,6 +686,47 @@ export const state = () => ({
       },
       googleMapsIframeUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.210536992554!2d-105.17386968420213!3d39.80226897944134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8f78646abee3%3A0x3b4317cc98605024!2s5930%20McIntyre%20St%2C%20Golden%2C%20CO%2080403!5e0!3m2!1sen!2sus!4v1605020512402!5m2!1sen!2sus',
       googleMapLink: 'https://goo.gl/maps/s3AUBpUUAJLCN6t18',
+    },
+  ],
+  scsa: [
+    {
+      id: 7,
+      shortName: "WCPS",
+      location: "Weld County",
+      schedules: {
+        2022: {
+          dayOfWeek: 7,
+          weekOfMonth: 1,
+          majors: {
+            m8: '5-7<sup>1</sup>',
+            m9: '3<sup>2</sup>',
+          },
+        },
+      },
+      name: 'Weld County Practical Shooters',
+      code: 'ECO09',
+      hostClub: {
+        url: 'http://wcfw.org',
+        name: 'Weld County Fish & Wildlife',
+      },
+      times: {
+        'Shooting Starts': '10 AM',
+      },
+      contacts: [
+        {
+          position: 'President',
+          name: 'Pat Miller',
+          email: 'steelchallenge@wcfw.org',
+          phone: '970-888-1902',
+        }
+      ],
+      fees: {
+        'Member fee': '$15',
+        'Non-member fee': '$20',
+        'Annual dues': '$30',
+      },
+      googleMapsIframeUrl: 'https://maps.google.com/maps?q=38967+CR+51+Eaton,+CO+80615&ie=UTF8&hq=&hnear=38967+County+Road+51,+Eaton,+Colorado+80615&gl=us&t=m&ll=40.488737,-104.773865&spn=0.381215,0.499878&z=10&iwloc=&output=embed',
+      googleMapLink: 'https://maps.google.com/maps?q=38967+CR+51+Eaton,+CO+80615&ie=UTF8&hq=&hnear=38967+County+Road+51,+Eaton,+Colorado+80615&gl=us&t=m&ll=40.488737,-104.773865&spn=0.381215,0.499878&z=10&iwloc=&source=embed',
     },
   ]
 })
