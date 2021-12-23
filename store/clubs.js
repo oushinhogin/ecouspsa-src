@@ -729,5 +729,87 @@ export const state = () => ({
       googleMapsIframeUrl: 'https://maps.google.com/maps?q=38967+CR+51+Eaton,+CO+80615&ie=UTF8&hq=&hnear=38967+County+Road+51,+Eaton,+Colorado+80615&gl=us&t=m&ll=40.488737,-104.773865&spn=0.381215,0.499878&z=10&iwloc=&output=embed',
       googleMapLink: 'https://maps.google.com/maps?q=38967+CR+51+Eaton,+CO+80615&ie=UTF8&hq=&hnear=38967+County+Road+51,+Eaton,+Colorado+80615&gl=us&t=m&ll=40.488737,-104.773865&spn=0.381215,0.499878&z=10&iwloc=&source=embed',
     },
-  ]
+  ],
+  majors: {
+    2022: [
+      {
+        start: '3/30',
+        end: '4/3',
+        title: 'Multigun Nationals',
+        location: 'Clinton, SC',
+        price: 295,
+      }, {
+        start: '4/20',
+        end: '4/24',
+        title: 'Colorado State - Big Horn Classic',
+        location: 'Palisade, CO',
+        price: 150,
+      }, {
+        start: '5/20',
+        end: '5/22',
+        title: 'Classic Nationals (SS, L10, Revo)',
+        location: 'Talladega, AL',
+        price: 250,
+      }, {
+        start: '6/2',
+        end: '6/5',
+        title: 'Area 1 Championship',
+        location: 'Nampa, ID',
+        price: 200,
+      }, {
+        start: '6/9',
+        end: '6/12',
+        title: '2-Gun PCC/Pistol Nationals',
+        location: 'Palisade, CO',
+        price: 295,
+      }, {
+        start: '6/10',
+        end: '6/12',
+        title: 'Rocky Mountain 300',
+        location: 'Weld, CO',
+        price: 99,
+      }, {
+        start: '8/11',
+        end: '8/14',
+        title: 'Area 3 Championship',
+        location: 'Alda, NE',
+      }, {
+        start: '9/1',
+        end: '9/4',
+        title: 'Utah State',
+        location: 'Salt Lake City, UT',
+        price: 160,
+      }, {
+        start: '9/7',
+        end: '9/11',
+        title: 'Carry Optics Nationals',
+        location: 'Talladega, AL',
+        price: 285,
+      }, {
+        start: '9/22',
+        end: '9/25',
+        title: 'Area 4 Championship',
+        location: 'Tulsa, OK',
+        price: 185,
+      }, {
+        start: '9/23',
+        end: '9/25',
+        title: 'US IPSC Nationals',
+        location: 'Frostproof, FL',
+        price: 210,
+      }, {
+        start: '10/11',
+        end: '10/16',
+        title: 'Open/Limited/PCC/Production Nationals',
+        location: 'Palisade, CO',
+        price: 295,
+      }, {
+        start: '11/10',
+        end: '11/13',
+        title: 'Area 2 Championship',
+        location: 'Mesa, AZ',
+        price: 330,
+      },
+    ]
+  },
 })
