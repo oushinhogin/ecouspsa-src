@@ -501,7 +501,8 @@ export const state = () => ({
         2022: {
           dayOfWeek: 7,
           weekOfMonth: 4,
-          sectionQualifier: 9,
+          sectionQualifier: 6,
+          omit: [4, 12],
         },
       },
       name: 'SoCo Practical Shooters',
