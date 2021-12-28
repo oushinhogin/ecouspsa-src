@@ -11,7 +11,7 @@
             </tr>
             <tr v-if="club.hostClub">
               <th>Hosted by:</th>
-              <td><a :href="club.hostClub.url">{{club.hostClub.name}}</a></td>
+              <td><a :href="club.hostClub.url" v-html="club.hostClub.name"></a></td>
             </tr>
             <tr>
               <th colspan="2" class="is-dark">
