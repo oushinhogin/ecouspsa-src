@@ -10,7 +10,7 @@
       <p>Current section documents:</p>
 
       <ul>
-        <li><a href="/ECO Bylaws Revision 20200807-Final.pdf">Section Bylaws (PDF)</a></li>
+        <li><a href="/ECO Bylaws Revision 1-11-2022 - Final.pdf">Section Bylaws (PDF)</a></li>
         <li><a href="/miscstatic/Safety%20Program.pdf">Safety Program (PDF)</a></li>
         <li><a href="/20200805_SafetyClassPolicy-final.pdf">Safety class policy (PDF)</a></li>
         <li><a href="/20200718-ECO USPSA Repeat DQ Policy-final.pdf">Repeat DQ policy (PDF)</a></li>
