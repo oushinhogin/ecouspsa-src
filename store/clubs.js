@@ -524,11 +524,16 @@ export const state = () => ({
           email: 'socopracticalshooters@gmail.com',
           phone: '719-439-6993'
         },
+        {
+          position: 'Safety Instructor',
+          name: 'Joel Whittington',
+          email: 'jwhittin@yahoo.com',
+        },
       ],
       fees: {
-        'Member Fee': '$20',
-        'Non-Member Fee': '$25',
-        'Annual Dues': 'n/a'
+        'Member Fee': '$25',
+        'Non-Member Fee': '$30',
+        'Annual Dues': '$40'
       },
       googleMapsIframeUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.3353142808855!2d-104.59708568465177!3d38.82478087958187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8713393be14db38d%3A0xf0179b39a2e04b1e!2s450+S+Franceville+Coal+Mine+Rd%2C+Colorado+Springs%2C+CO+80929!5e0!3m2!1sen!2sus!4v1547002830549',
       googleMapLink: 'https://goo.gl/maps/949RTKCAx4H2',
