@@ -733,6 +733,32 @@ export const state = () => ({
       },
       googleMapsIframeUrl: 'https://maps.google.com/maps?q=38967+CR+51+Eaton,+CO+80615&ie=UTF8&hq=&hnear=38967+County+Road+51,+Eaton,+Colorado+80615&gl=us&t=m&ll=40.488737,-104.773865&spn=0.381215,0.499878&z=10&iwloc=&output=embed',
       googleMapLink: 'https://maps.google.com/maps?q=38967+CR+51+Eaton,+CO+80615&ie=UTF8&hq=&hnear=38967+County+Road+51,+Eaton,+Colorado+80615&gl=us&t=m&ll=40.488737,-104.773865&spn=0.381215,0.499878&z=10&iwloc=&source=embed',
+    }, {
+      id: 8,
+      shortName: "CRCPS",
+      location: "Byers",
+      schedules: {
+        2022: {
+          dayOfWeek: 7,
+          weekOfMonth: 3,
+          override: {
+            m4: '30',
+          }
+        },
+      },
+      name: 'Colorado Rifle Club Practical Shooters',
+      code: 'ECO15',
+      hostClub: {
+        url: 'http://www.crci.org',
+        name: 'Colorado Rifle Club',
+      },
+      times: {},
+      contacts: [],
+      fees: {
+        'Fee': '$20',
+      },
+      googleMapsIframeUrl: 'https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=76099+E.+96th+Ave.+Byers,+CO+80103+&aq=&sll=39.690129,-105.126248&sspn=0.202898,0.295601&ie=UTF8&hq=&hnear=76099+E+96th+Ave,+Byers,+Colorado+80103&t=m&ll=39.848612,-104.099579&spn=0.384828,0.499878&z=10&iwloc=&output=embed',
+      googleMapLink: 'https://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=76099+E.+96th+Ave.+Byers,+CO+80103+&aq=&sll=39.690129,-105.126248&sspn=0.202898,0.295601&ie=UTF8&hq=&hnear=76099+E+96th+Ave,+Byers,+Colorado+80103&t=m&ll=39.848612,-104.099579&spn=0.384828,0.499878&z=10&iwloc=',
     },
   ],
   majors: {
