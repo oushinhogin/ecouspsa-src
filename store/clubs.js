@@ -692,6 +692,49 @@ export const state = () => ({
       },
       googleMapsIframeUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.210536992554!2d-105.17386968420213!3d39.80226897944134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8f78646abee3%3A0x3b4317cc98605024!2s5930%20McIntyre%20St%2C%20Golden%2C%20CO%2080403!5e0!3m2!1sen!2sus!4v1605020512402!5m2!1sen!2sus',
       googleMapLink: 'https://goo.gl/maps/s3AUBpUUAJLCN6t18',
+    }, {
+      id: 14,
+      shortName: "CGC",
+      location: "Centennial",
+      schedules: {
+        2022: {
+          dayOfWeek: 1,
+          weekOfMonth: 4,
+          omit: [1, 2],
+        },
+      },
+      name: 'Centennial Gun Club',
+      code: 'ECO16',
+      hostClub: {
+        url: 'https://centennialgunclub.com/events2/',
+        name: 'Centennial Gun Club',
+      },
+      times: {
+        'Setup Start': '6:00 pm',
+        'Registration': '5:30 pm - 6:30 pm',
+        'Shooter\'s Meeting': '7:00 pm',
+      },
+      contacts: [
+        {
+          position: 'President',
+          name: 'Joey Mizufuka',
+          phone: '303-397-3281'
+        },{
+          position: 'Range Master',
+          name: 'Richard Clare',
+        },{
+          position: 'Stats/Scoring',
+          name: 'Sean Myhre',
+        },{
+          position: 'Stage Design',
+          name: 'Spencer Stein, Rodney Lim, Alex Iglesias, and Jeff Schroeder',
+        },
+      ],
+      fees: {
+        'Fee': '$25',
+      },
+      googleMapsIframeUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.3558040454186!2d-104.85468868427866!3d39.59666667946895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c807d31cd9269%3A0xc184657f39a34cc2!2sCentennial%20Gun%20Club!5e0!3m2!1sen!2sus!4v1648307210971!5m2!1sen!2sus',
+      googleMapLink: 'https://g.page/CentennialGunClub?share',
     },
   ],
   scsa: [
