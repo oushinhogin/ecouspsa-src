@@ -375,7 +375,9 @@ export const state = () => ({
         2022: {
           dayOfWeek: 1,
           weekOfMonth: 3,
-          sectionQualifier: 5,
+          override: {
+            m7: '17, <span class="section-qualifier">31</span>',
+          },
         },
       },
       name: 'Weld County Practical Shooters',
