@@ -445,7 +445,7 @@ export const state = () => ({
           dayOfWeek: 1,
           weekOfMonth: 4,
           iffy: [1,2,11,12],
-          sectionQualifier: 7,
+          sectionQualifier: 6,
         },
       },
       name: 'Clear Creek Practical Shooters',
@@ -503,7 +503,7 @@ export const state = () => ({
         2022: {
           dayOfWeek: 7,
           weekOfMonth: 4,
-          sectionQualifier: 6,
+          sectionQualifier: 7,
           omit: [4, 12],
         },
       },
