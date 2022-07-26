@@ -189,7 +189,10 @@ export const state = () => ({
         2022: {
           dayOfWeek: 1,
           weekOfMonth: 2,
-          sectionQualifier: 9,
+          sectionQualifier: 8,
+          override: {
+            m8: '28',
+          },
         },
       },
       name: 'Boulder Rifle Club',
@@ -246,7 +249,7 @@ export const state = () => ({
         2022: {
           dayOfWeek: 1,
           weekOfMonth: 2,
-          sectionQualifier: 11,
+          sectionQualifier: 10,
         },
       },
       name: 'Pike&#39;s Peak Practical Shooters',
