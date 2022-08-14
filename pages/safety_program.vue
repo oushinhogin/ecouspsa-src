@@ -30,7 +30,7 @@
 
       <ul>
         <li>
-          <a href="/miscstatic/Safety%20Program.pdf">Safety Program (PDF)</a>
+          <a href="/New_Competitor_Safety_Briefing_8-9-2022.pdf">Safety Program (PDF)</a>
         </li>
         <li>
           <a href="/miscstatic/USPSA%20Introduction.pdf">USPSA Introduction (PDF)</a>
