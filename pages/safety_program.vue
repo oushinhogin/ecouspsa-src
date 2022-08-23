@@ -35,12 +35,7 @@
         <li>
           <a href="/miscstatic/USPSA%20Introduction.pdf">USPSA Introduction (PDF)</a>
         </li>
-        <li>
-          <a href="/miscstatic/safetytrainingpolicy.pdf">Draft Safety Training Policy (PDF)</a>
-        </li>
       </ul>
     </div>
   </section>
-
 </template>
-
