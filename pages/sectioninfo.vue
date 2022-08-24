@@ -11,6 +11,7 @@
 
       <ul>
         <li><a href="/ECO Bylaws Revision 1-11-2022 - Final.pdf">Section Bylaws (PDF)</a></li>
+        <li><a href="/New_Competitor_Safety_Briefing_8-9-2022.pdf">New Competitor Safety Briefing (PDF)</a></li>
         <li><a href="/20200805_SafetyClassPolicy-final.pdf">Safety class policy (PDF)</a></li>
         <li><a href="/20200718-ECO USPSA Repeat DQ Policy-final.pdf">Repeat DQ policy (PDF)</a></li>
         <li><a href="/20200805_QS Update.pdf">Nationals slot policy (PDF)</a></li>
